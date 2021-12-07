@@ -1,0 +1,43 @@
+{
+  "groups": [
+    {
+      "name": "cors",
+      "type": "com.example.diplom.properties.CorsProperties",
+      "sourceType": "com.example.diplom.properties.CorsProperties"
+    },
+    {
+      "name": "file",
+      "type": "com.example.diplom.properties.StorageProperties",
+      "sourceType": "com.example.diplom.properties.StorageProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "cors.allowed-headers",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.example.diplom.properties.CorsProperties"
+    },
+    {
+      "name": "cors.allowed-methods",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.example.diplom.properties.CorsProperties"
+    },
+    {
+      "name": "cors.allowed-origins",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.example.diplom.properties.CorsProperties"
+    },
+    {
+      "name": "file.root-location",
+      "type": "java.lang.String",
+      "description": "Description for file.root-location.",
+      "sourceType": "com.example.diplom.properties.StorageProperties"
+    },
+    {
+      "name": "jwt.secret",
+      "type": "java.lang.String",
+      "description": "Description for jwt.secret."
+    }
+  ],
+  "hints": []
+}
